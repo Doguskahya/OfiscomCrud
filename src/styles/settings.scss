@@ -1,0 +1,25 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+.newHead {
+    display:flex;
+    flex-direction:column;
+    margin-right: 50px;
+    padding-right: 100px;
+}
+.addButton {
+    display:flex;
+    flex-direction:column;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+.item + .item:before {
+    content: ", ";
+  }
