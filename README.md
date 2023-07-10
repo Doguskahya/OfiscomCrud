@@ -8,6 +8,7 @@ yarn
 
 # npm
 npm install
+npm install axios
 
 # pnpm
 pnpm install
